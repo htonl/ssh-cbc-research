@@ -17,7 +17,7 @@ sock = socket.socket(socket.AF_INET6, socket.SOCK_RAW, socket.IPPROTO_RAW)
 
 sent = 0
 
-byte_list = read_bytes_from_file("test")
+byte_list = read_bytes_from_file("packet")
 
 i = byte_list[47]
 j = byte_list[46]
